@@ -26,11 +26,18 @@
               <div class="ex1">
                 <img src="/img/booklet.gif">
               </div>
-              
+
               <div class="ex1">
                 <img src="/img/booklet.gif">
               </div>
 
+              <div id="observablehq-d2e081a3"></div>
+              <script type="module">
+              import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+              import define from "https://api.observablehq.com/@mbostock/hertzsprung-russell-diagram.js?v=3";
+              const inspect = Inspector.into("#observablehq-d2e081a3");
+              (new Runtime).module(define, name => (name === "chart") && inspect());
+              </script>
 
 
 

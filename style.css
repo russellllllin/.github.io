@@ -31,6 +31,7 @@ height: 840px;
 overflow: hidden;
 display: inline-block;
 }
+
 div.b5 {
 background-color: blue;
 width: 290px;
@@ -38,6 +39,7 @@ height: 911px;
 overflow: hidden;
 display: inline-block;
 }
+
 div.b6 {
 background-color: maroon;
 width: 149px;

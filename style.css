@@ -1,8 +1,25 @@
 
-div.ex1 {
+div.b1 {
   background-color: #E8F5E9 ;
-  width: 500px;
-  height: 750px;
-  overflow: auto;
+  width: 233px;
+  height: 731px;
+  overflow: hidden;
   display: inline-block;
+}
+
+
+div.b2 {
+background-color: red;
+width: 429px;
+height: 137px;
+overflow: hidden;
+display: inline-block;
+}
+
+div.b3 {
+background-color: green;
+width: 678px;
+height: 216px;
+overflow: hidden;
+display: inline-block;
 }

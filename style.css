@@ -48,4 +48,9 @@ overflow: hidden;
 display: inline-block;
 }
 
-     
+
+header {
+display:block;
+  padding: 20;
+  
+}

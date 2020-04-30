@@ -2,16 +2,16 @@
 div.b1 {
   background-color: #E8F5E9 ;
   width: 450px;
-  height: 731px;
+  height: 142px;
   overflow: auto;
   display: inline-block;
 }
 
 
-div.b2 {
-background-color: red;
-width: 429px;
-height: 137px;
+div.widget {
+background-color: #fafff5;
+width: 450px;
+height: 1000px;
 overflow: hidden;
 display: inline-block;
 }

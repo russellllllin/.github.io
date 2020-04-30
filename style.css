@@ -3,8 +3,8 @@ div.b1 {
   background-color: #E8F5E9 ;
   width: 450px;
   height: 142px;
-  overflow: auto;
-  display: inline;
+  overflow-y: scroll;
+  display: inline-block;
 }
 
 
@@ -13,10 +13,10 @@ background-color: #fafff5;
 width: 450px;
 height: 1000px;
 overflow: hidden;
-display: inline;
+display: inline-block;
 }
 
- 
+
 
 header {
   height: 151px;

@@ -1,9 +1,9 @@
 
 div.b1 {
   background-color: #E8F5E9 ;
-  width: 233px;
+  width: 450px;
   height: 731px;
-  overflow: hidden;
+  overflow: auto;
   display: inline-block;
 }
 
@@ -16,41 +16,18 @@ overflow: hidden;
 display: inline-block;
 }
 
-div.b3 {
-background-color: green;
-width: 340px;
-height: 108px;
-overflow: hidden;
-display: inline-block;
-}
-
-div.b4 {
-background-color: black;
-width: 270px;
-height: 840px;
-overflow: hidden;
-display: inline-block;
-}
-
-div.b5 {
-background-color: blue;
-width: 290px;
-height: 911px;
-overflow: hidden;
-display: inline-block;
-}
-
-div.b6 {
-background-color: maroon;
-width: 149px;
-height: 469px;
-overflow: hidden;
-display: inline-block;
-}
 
 
 header {
-display:block;
-  padding: 20;
-  
+  height: 151px;
+  background-color: #a1a4a6;
+  display:block;
+
+}
+
+section {
+  width: 350px;
+  overflow-y: auto;
+
+
 }

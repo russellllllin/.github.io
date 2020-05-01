@@ -2,7 +2,7 @@
 div.b1 {
   background-color: #E8F5E9 ;
   width: 450px;
-  height: 142px;
+  height: 450px;
   overflow-y: scroll;
   display: inline-block;
 }
@@ -24,6 +24,15 @@ header {
   display:block;
 
 }
+
+div.graphs{
+width: 600px;
+height: 600px;
+overflow:auto;
+
+}
+
+
 
 section {
   width: 350px;

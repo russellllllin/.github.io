@@ -96,7 +96,16 @@
 
     <div class= "widget">
 <img src="/img/tarus.gif">
-</div> 
+</div>
+
+
+<div id="observablehq-d3569492"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@mbostock/hertzsprung-russell-diagram.js?v=3";
+const inspect = Inspector.into("#observablehq-d3569492");
+(new Runtime).module(define, name => (name === "chart") && inspect());
+</script>
 
 
 

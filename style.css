@@ -32,12 +32,13 @@
 
 
                                                         /* quote, texts (leftist) */
-                                                        h2 {
+                                                        div.b3 {
+
                                                         font-family: neue-haas-unica, sans-serif;
                                                         font-weight: 600;
                                                         font-style: normal;
                                                         background-color: red;
-                                                        width: 450px;
+                                                        width: 500px;
                                                         height: 600px;
                                                         margin:20px, 0, 20px, 0;
                                                         padding: 1px;
@@ -74,7 +75,7 @@
 header {
   background: rgba(0, 0, 0, .4);
   height: 150px;
-  display:block;
+  display:inline-block;
   margin: 0;
 
 }

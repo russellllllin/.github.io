@@ -33,16 +33,6 @@ div.b1 {
 }
 
 
-div.widget {
-background-color: #fafff5;
-width: 450px;
-height: 450px;
-overflow: hidden;
-display: inline-block;
-}
-
-
-
 header {
   height: 151px;
   background-color: #a1a4a6;

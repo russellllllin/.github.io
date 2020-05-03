@@ -27,25 +27,46 @@
                                                                   width: 100%;
                                                                 }
 
-div.b1 {
-  font-family: neue-haas-unica, sans-serif;
-  font-weight: 800;
-  font-style: italic;
-  background-color: #E8F5E9 ;
-  width: 815px;
-  height: 610px;
-  overflow-y: scroll;
-  display: inline-block;
 
 
-}
 
 
-section {
-  display: inline;
+                                                        /* quote, texts (leftist) */
+                                                        h2 {
+                                                        font-family: neue-haas-unica, sans-serif;
+                                                        font-weight: 600;
+                                                        font-style: normal;
+                                                        width: 450px;
+                                                        height: 600px;
+                                                        margin:20px, 0, 20px, 0;
+                                                        padding: 75px;
+                                                        display: inline-block;
+
+                                                                }
+
+                                      /* middle bit with gifs */
+                                      div.b2 {
+
+                                        background-color: #E8F5E9 ;
+                                        width: 450px;
+                                        height: 600px;
+                                        margin: 20px; 20px, 20px, 50px;
+                                        overflow-x: scroll;
+                                        display: inline-block;
+                                      }
 
 
-}
+                                      div.b1 {
+                                      background-color: blue;
+                                      width: 300px;
+                                      height: 600px;
+                                      margin: 20px; 20px, 20px, 50px;
+
+                                      overflow-y: auto;
+                                      display:inline-block;
+                                    }
+
+
 
 
 

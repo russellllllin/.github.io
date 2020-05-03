@@ -36,10 +36,11 @@
                                                         font-family: neue-haas-unica, sans-serif;
                                                         font-weight: 600;
                                                         font-style: normal;
+                                                        background-color: red;
                                                         width: 450px;
                                                         height: 600px;
                                                         margin:20px, 0, 20px, 0;
-                                                        padding: 35px;
+                                                        padding: 1px;
                                                         display: inline-block;
 
                                                                 }
@@ -48,7 +49,7 @@
                                       div.b2 {
 
                                         background-color: #E8F5E9 ;
-                                        width: 460px;
+                                        width: 465px;
                                         height: 600px;
                                         margin: 20px; 20px, 20px, 50px;
                                         overflow-x: scroll;

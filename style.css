@@ -9,7 +9,7 @@ z-index: 10;
 }
 
 #home_text {
-background: red;
+background:rgba(0, 0, 0, .4);
 height: 99%;
 margin: 20px auto 0;
 width: 99%;
@@ -21,6 +21,7 @@ width: 99%;
 
 .img-container img {
   display: block;
+  height: 100;
   width: 100%;
 }
 
@@ -34,8 +35,8 @@ div.b1 {
 
 
 header {
+  background: rgba(0, 0, 0, .4);
   height: 151px;
-  background-color: #a1a4a6;
   display:block;
 
 }

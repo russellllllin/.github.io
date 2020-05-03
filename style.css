@@ -1,37 +1,52 @@
-#overlay {
-background: rgba(0, 0, 0, .4);
-bottom: 0;
-left: 0;
-position: absolute;
-right: 0;
-top: 0;
-z-index: 10;
-}
 
-#home_text {
-background:rgba(0, 0, 0, .4);
-height: 100%;
-margin: 0 auto 0;
-width: 100%;
-}
 
-.img-container {
-  position: relative;
-}
+                                                                #overlay {
+                                                                background: rgba(0, 0, 0, .4);
+                                                                bottom: 0;
+                                                                left: 0;
+                                                                position: absolute;
+                                                                right: 0;
+                                                                top: 0;
+                                                                z-index: 10;
+                                                                }
 
-.img-container img {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
+                                                                #home_text {
+                                                                background:rgba(200, 0, 0, .4);
+                                                                height: 100%;
+                                                                margin: 0;
+                                                                width: 100%;
+                                                                }
+
+                                                                .img-container {
+                                                                  position: relative;
+                                                                }
+
+                                                                .img-container img {
+                                                                  display: block;
+                                                                  height: 100;
+                                                                  width: 100%;
+                                                                }
 
 div.b1 {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 800;
+  font-style: italic;
   background-color: #E8F5E9 ;
-  width: 450px;
-  height: 450px;
+  width: 815px;
+  height: 610px;
   overflow-y: scroll;
   display: inline-block;
+
+
 }
+
+
+section {
+  display: inline;
+
+
+}
+
 
 
 header {
@@ -39,16 +54,5 @@ header {
   height: 150px;
   display:block;
   margin: 0;
-
-}
-
-h2 {
-  font-weight: bold;
-  font-family: Helvetica, sans-serif;
-}
-
-
-
-
 
 }

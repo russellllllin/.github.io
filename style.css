@@ -1,102 +1,99 @@
 .img-cont {
 /*   position: absolute; */
-  width:width;
-  height:height;
+width:width;
+height:height;
 }
 .img-cont .after{
-   position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #FFF;
-
-
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: none;
+color: #FFF;
 }
 
 .img-cont:hover .after{
-     display: block;
-    background: rgba(0, 0, 0, 0.1);
-
+display: block;
+background: rgba(0, 0, 0, 0.1);
 }
 
 
 #overlay {
-                                                              background: rgba(0, 0, 0, .4);
-                                                             bottom: 0;
-                                                               left: 0;
-                                                              position: absolute;
-                                                              right: 0;
-                                                                top: 0;
-                                                               z-index: 10;
-                                                               }
+background: rgba(0, 0, 0, .4);
+bottom: 0;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 10;
+}
 
-                                                                  #home_text {
-                                                                background:rgba(200, 0, 0, .1);
-                                                                height: 100%;
-                                                                margin: 0;
-                                                                width: 100%;
-                                                                }
+#home_text {
+background:rgba(200, 0, 0, .1);
+height: 100%;
+margin: 0;
+width: 100%;
+}
 
-                                                                .img-container {
-                                                                  position: relative;
-                                                                }
+.img-container {
+position: relative;
+}
 
-                                                                .img-container img {
-                                                                  display: block;
-                                                                  height: 100%;
-                                                                  width: 100%;
-                                                                }
-
-
+.img-container img {
+display: block;
+height: 100%;
+width: 100%;
+}
 
 
 
-                                                        /* quote, texts (leftist) */
-                                                        div.b3 {
-                                                        float: left;
-                                                        vertical-align: text-top;
-                                                        font-family: neue-haas-unica, sans-serif;
-                                                        overflow: hidden;
-                                                        font-weight: 600;
-                                                        font-style: normal;
-                                                        background-color: white;
-                                                        width: 500px;
-                                                        height: 600px;
-                                                        display: inline-block;
-
-                                                                }
-
-                                      /* middle bit with gifs */
-                                      div.b2 {
-                                        position: relative;
-                                        background-color: #E8F5E9 ;
-                                        width: 465px;
-                                        height: 600px;
-                                        overflow-x: scroll;
-                                        display: inline-block;
-                                      }
 
 
-                                      div.b1 {
-                                        float: right;
-                                      background-color: white;
-                                      width: 300px;
-                                      height: 600px;
+/* quote, texts (leftist) */
+div.b3 {
+float: left;
+vertical-align: text-top;
+font-family: neue-haas-unica, sans-serif;
+overflow: hidden;
+font-weight: 600;
+font-style: normal;
+background-color: white;
+width: 500px;
+height: height;
+display: inline-block;
 
-                                      overflow-y: auto;
-                                      display:inline-block;
-                                    }
+}
+
+/* middle bit with gifs */
+div.b2 {
+position: relative;
+background-color: #E8F5E9 ;
+width: 465px;
+height: 600px;
+overflow-x: scroll;
+display: inline-block;
+}
+
+
+div.b1 {
+float: right;
+background-color: white;
+width: 300px;
+height: 600px;
+
+overflow-y: auto;
+display:inline-block;
+}
 
 
 
 
 
 header {
-  background: rgba(0, 0, 0, .4);
-  height: 150px;
-  display:inline-block;
-  margin: 0;
+background: rgba(0, 0, 0, .4);
+height: 150px;
+display:inline-block;
+margin: 0;
 
 }

@@ -85,7 +85,7 @@ float: none;
 background-color: white;
 width: 560px;
 height: 600px;
-overflow-y: hidden;
+overflow-y: auto;
 overflow-x: hidden;
 display:inline-block;
 }

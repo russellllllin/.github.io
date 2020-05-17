@@ -86,7 +86,7 @@ background-color: white;
 width: 560px;
 height: 600px;
 overflow-y: auto;
-overflow-x: hidden;
+overflow-x: auto;
 display:inline-block;
 }
 

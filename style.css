@@ -74,8 +74,8 @@ position: relative;
 background-color: #E8F5E9 ;
 width: 465px;
 height: 600px;
-overflow-y: hidden;
-overflow-x: hidden;
+overflow-y: auto;
+overflow-x: auto;
 display: inline-block;
 }
 
@@ -83,7 +83,7 @@ display: inline-block;
 div.b1 {
 float: none;
 background-color: white;
-width: 560px;
+width: 680px;
 height: 600px;
 overflow-y: auto;
 overflow-x: auto;

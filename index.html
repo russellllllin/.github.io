@@ -1,140 +1,242 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
-
+<html>
 <head>
-
-<!-- <script src="JS.js">    </script> -->
-<script src="https://code.jquery.com/jquery-1.11.3.js"> </script>
-<script>
-$(document).ready(function() {
-var overlay = $('#overlay');
-overlay.on('click', function (e) {
-overlay
-.hide()
-.off();
-});
-});
-</script>
+  <script src="https://code.jquery.com/jquery-1.11.3.js"> </script>
+  <script>
+  $(document).ready(function() {
+  var overlay = $('#overlay');
+  overlay.on('click', function (e) {
+  overlay
+  .hide()
+  .off();
+  });
+  });
+  </script>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://use.typekit.net/zqi6bqv.css">
-
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="U7 Acts">
-<meta name="author" content="Russell Lin">
-<title>
-TASK 1234
-</title>
-<style>
-body
-{background-color: #fafff5;}
-</style>
+<meta name="viewport" content="width=device-width">
+
+<!-- hopefully I can remove this soon -->
+<title>Russell Lin!</title>
+
 </head>
-
-
 <body>
 
-<div class="img-cont">
+<!-- the flex container for the columns: nav(photo)
+and article (text) -->
 
-<div class= b3>
+<div class="flex-master">
 
-“To understand something, is to understand the structure of which it is a
-part and/or the elements forming the structure that that something is”
+<header class="page-header">
+<!-- emtpy for that spacing given by header -->
+</header>
+
+
+<div class="page-content">
+
+<!-- sidebar has no flex, but page content has!
+
+p.c has flex: 1 ( spacing) overflows, flex Display
+and flex direction is a row -->
+<nav class="sidebar-left">
+
+
+
+
+
+
+
+<iframe width="892" height="558" src="https://www.youtube.com/embed/WXYSCBMo5L0"
+style="padding-bottom: 5%;"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<hr>
+
+<iframe width="892" height="558" src="https://www.youtube.com/embed/JMFw8Ao1X18"
+style="padding-bottom: 5%; padding-top: 5%;"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr>
+
+<!--D's photo -->
+<div class= firstimg>
+<img src="img/Openstudio1.jpg">
+</div>
+
 <br>
-Ulises Carrión
 
-"What is needed is that optimal staging of selves and sociability that the third
-place offers and that guarantees that the price of friendship will be rock
-bottom even while those assembled are in a most enjoyable state. Those who
-discount this kind of affiliation and this “lesser” form of friendship in
-favor of more demanding relationships do us no service. Some of the joys
-and blessings of being alive ought to be as easily achieved as a stroll
-down to the place on the corner—but there does have to be a place on the corner!"
+
+<!-- openstudio screencap -->
+<iframe src="https://player.vimeo.com/video/427790538?color=ff9933&byline=0&portrait=0"
+style="padding-bottom: 5%;" width="892" height="558"frameborder="0"  allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 <br>
-Ray Oldenburg
+
+<!-- street screencap with aud -->
+<iframe src="https://player.vimeo.com/video/427796419?color=ff9933&byline=0&portrait=0"
+style="padding-bottom: 5%;" width="892" height="558" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
+
+<br>
+
+<!-- Typographic experiment -->
+<iframe src="https://player.vimeo.com/video/370772284?color=ff9933&byline=0&portrait=0"
+style="padding-bottom: 5%; " width="892" height="558" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<br>
+
+<!-- Un.mapping -->
+
+<hr>
+
+<!-- 3 with screen -->
+<div class= "firstimg">
+<img src="img/Openstudio2.jpg" >
+<br>
 
 
+<!-- div = padding right
+(inline and nothign sticking out) -->
+<div class="gifz">
+<img src="img/Brightness1.gif">
+<img src="img/Brightness2.gif">
 </div>
 
-<div class="after">
-<svg height="height" width="width">
-<!-- y axis           -->
-<line x1="150" y1="0" x2="150" y2="2000" style="stroke:black;stroke-width:1.5" />
-<!--    x axis        -->
-<line x1="-10" y1="610" x2="2000" y2="610" style="stroke:black;stroke-width:1.5" />
+<br>
 
-<!--   labels on the x axis         -->
-<!--  starting from left          -->
-<line x1="2"  y1="600" x2="2" y2="620" style="stroke:blue;stroke-width:5"/>
+<!-- to p5.js (pixelated demo) -->
+<a href="https://editor.p5js.org/beefmuck/full/CuoMUeAvL" target="_blank">
+<img src="img/linkto.p5.gif">
+
+</a>
 
 
-<line x1="504"  y1="600" x2="504" y2="620" style="stroke:blue;stroke-width:5"/>
+<hr>
 
+<!-- Human clock -->
 
-<line x1="977"  y1="600" x2="977" y2="620" style="stroke:blue;stroke-width:5"/>
-
-
-<line x1="1535"  y1="600" x2="1535" y2="620" style="stroke:blue;stroke-width:5"/>
-</svg>
-
-
-
-</div>
-
-</div>
-
-
-<div class= b2>
-<img src="/img/1-combination.gif"
-alt= combination book>
-<img src="/img/1-combibook.gif"
-alt= another book>
-<img src="/img/1-flipping.gif"
-alt= another book>
-</div>
-
-
-<div class = b1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jQU1cDsnBcw"
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe>"
-<img src="/img/1-01.png">
-<img src="/img/1-02.png">
-<img src="/img/1-03.png">
-<img src="/img/1-04.png">
-
-
+<div class= "firstimg">
+<a href="https://editor.p5js.org/beefmuck/full/2HHfVKY8z" target="_blank">
+<img src="img/Clock.png"> </a>
 </div>
 
 
+<hr>
+
+<!--Transparency  -->
+
+<div class = "firstimg">
+
+<!-- hampstead cafe + text -->
+
+<img src = "img/trans2.jpg">
+</div>
+<br>
+
+<img src = "img/trans3.jpg">
+
+<br>
+
+<div class="gifz">
+<img src="img/trans4.jpg">
+<img src="img/trans5.jpg">
 </div>
 
+</nav>
+
+<div class="splitter">
+<!-- splitter -->
+</div>
+
+<!-- Text bit goes here~ -->
+<div class="content-container">
+<article class="main-content">
+
+<h3> Erased –– 2020 </h3>
+
+<p> – To create a warning video by experimenting with pixilation and keying.<p>
+<p>*Insert generic comment on proliferation of screens in everyday lives* This
+film uses pixilation to depict the jail-like environment constructed by the
+over-reliance on digital services.<p>
+<p> <small> One minute film </small> <p>
+
+<hr>
+
+<h3> What About the Moon and Me? –– 2020 </h3>
+
+<p> –To explore the language of film by producing a film from 35mm celluloid film.<p>
+
+<p>From the get-go, cinema is utilised for its ability to “observe”, rather
+than its ability to stitch together fragmented time. This film challenges the
+pre-existing schema that movies are narrative in nature, by splicing found footage
+together to form pure perceptive experience.<p>
+
+<p> <small>Digitised 35mm celluloid film (one minute). </small> <p>
 
 
+<hr>
 
+
+<h3>Soundscape –– 2019 </h3>
+<p> – To question the authenticity if a place through interactive
+audio experiments. <p>
+
+<p>This piece is a response to the separating nature of boundaries. Inspired by Schafer ’s ideas on soundscape and Debord’s Society of the Spectacle, this interactive audio experiment questions our sense of place by injecting a foreign soundscape into the current space.
+
+Using the Kinect’s proximity and IR sensor, passersby within a prescribed distance will trigger pre-recorded sounds. In this example. the prerecorded sounds were components of the soundscape from Regent’s Park, and they were played into a studio environment in Central Saint Martins (the Graphics studios). <p>
+
+<p> <small> Microsoft Kinect (gen.1), Processing. </small> <p>
+
+
+<hr>
+
+<h3>Uncertainty Mapping –– 2019 </h3>
+<p> – To explore alternative cartographic methods. <p>
+
+<p>Inspired by the latent possibilities within maps (as a result of choosing what to include on a map), and historical notion of  physically traversing oceans to uncover new territories, this interactive piece relies on the movements of its participants to uncover their environment.
+Using a webcam, the screen either gets less pixelated or brighter as it senses motion. In the absence of instructions, random movements provide a clear video feed, rewarding the participants’ uncertain behaviour.
+<p>
+<p> <small> p5.js, Processing.</small> <p>
+
+<hr>
+
+<h3>Human Clock –– 2019 </h3>
+
+<p> – To reconsider and readpt timekeeping in a more relevant way. <p>
+<p>Historically timekeeping has been pegged to a natural constant, and as technology becomes more sophisticated, so too is the demand for precision and reliability in timekeeping. Given our increasingly image-mediated reality, perhaps snapshots of time can be chronicled into images, with the duration up to its users. <p>
+<p>  This project seeks to do away the rigid (yet standardised) notion of time, by letting the user set the duration between each photo. The result is a matrix of photos that can have different durations between them, different users and different places. <p>
+<p> p5.js <p>
+
+<hr>
+
+<h3> Transparency –– 2018 </h3>
+<p>  – To translate the essence of a place visually. <p>
+<p>This project is about documenting the process of familiarising and situating oneself in a foreign place. Inspired by John Cage’s 4’33”, the essence of a location is captured by the marks left by the suspended pen.
+<p>
+<p> <small> Film camera, marker, paper </small> <p>
+
+<br>
+<br>
+
+</article>
+
+
+</div>
+</div>
+
+<footer>
+<small>&copy Russell Lin, 2018-2020</small>
+</footer>
+</div>
 
 <div id="overlay">
 <div id="home_text">
 <div class="img-container">
-<img id="portimg" src="/img/intro-page1.png" alt="this is the intro page">
+<img id="portimg" src="img/overlay.png" alt="this is the intro page">
 <div class="overlay">
 </div>
 
 </div>
 </div>
 
-
-
-
-
-
-
-
 </body>
-
-
-
-
 </html>

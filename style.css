@@ -8,7 +8,10 @@ body {
   line-height: 1.5em;
 }
 
-
+a, a:hover, a:active, a:visited, a:focus {
+text-decoration:none;
+color: black
+}
 
 .img-cont {
 /*   position: absolute; */
@@ -68,7 +71,10 @@ width: 100%;
 
 
 
-
+/* dark not reable description textbox
+clickle titles to match portoflio piece
+dynamic scroll clickale links (button)
+ */
 
 
 
@@ -78,7 +84,7 @@ padding: 15px
 }
 
 hr {
-border-top: 4px double ;
+border-top: 4px double solid black;
 
 }
 .flex-master {

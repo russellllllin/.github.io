@@ -8,10 +8,18 @@ body {
   line-height: 1.5em;
 }
 
-a, a:hover, a:active, a:visited, a:focus {
+a, a:active, a:visited, a:focus {
 text-decoration:none;
 color: black
 }
+
+a:hover {
+  text-decoration:line-through;
+  color: black
+
+
+}
+
 
 .img-cont {
 /*   position: absolute; */
@@ -36,7 +44,7 @@ background: rgba(0, 0, 0, 0.1);
 
 }
 
- 
+
 #overlay {
 background: rgba(0, 0, 0, .4);
 bottom: 0;
@@ -63,19 +71,6 @@ display: block;
 height: 100%;
 width: 100%;
 }
-
-
-
-
-
-
-
-
-/* dark not reable description textbox
-clickle titles to match portoflio piece
-dynamic scroll clickale links (button)
- */
-
 
 
 h3 {
@@ -166,6 +161,11 @@ border-top: 4px double solid black;
   width: 100%;
 }
 
+span {
+background-color: yellow;
+
+}
+
 
 img{
 align-self: center;
@@ -174,10 +174,12 @@ padding-right: 3%
 }
 
 .firstimg{
+  border-radius: 25px;
   align-self: center;
   padding-top:5% ;
   padding-bottom: 5%;
 }
+
 
 .gifz{
   display:inline;

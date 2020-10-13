@@ -1,231 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<script src="https://code.jquery.com/jquery-1.11.3.js"> </script>
-<script>
-$(document).ready(function() {
-var overlay = $('#overlay');
-overlay.on('click', function (e) {
-overlay
-.hide()
-.off();
-});
-});
-</script>
-<link rel="stylesheet" href="style.css">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-
-<!-- hopefully I can remove this soon -->
-<title>Russell Lin</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ~uwu~ </title>
+  <link rel="stylesheet" href="https://use.typekit.net/zfh3oeu.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
+<!----------------------------------------------------------------------------------->
 <body>
 
-<!-- the flex container for the columns: nav(photo)
-and article (text) -->
+    <header>
+    <img src="image/name.png" class="header-img">
+        </header>
 
-<div class="flex-master">
+<!----------------------------------------------------------------------------------->
+        <main>
+      <div class="article-section-wrapper">
 
-<header class="page-header">
-<!-- emtpy for that spacing given by header -->
-</header>
+<aside>
+                  <img src="image/past.png" class="img-topic-header">
+
+                  <div class="indent">
+                      <p> 2020 </p>
+                  </div>
+                      <ul class= "project-list">
+                      <li>
+                        <a href="***" target="_blank">&lt;Erased&gt;
+                        </a> </li>
+                    </ul>
+
+                    <div class="indent">
+                        <p> 2019 <p>
+                    </div>
+
+                      <ul class= "project-list">
+                  <li>
+                  <a href="
+                  file:///Users/russell01px2015/*5%20WEB/*1%20Website%20versions/Portfolio%20vers.4%20%20%20(3%20columns)/Vers.4/past/moon/index.html
+
+                  " target="_blank">
+                    &nbsp;&lt;What&nbsp;About&nbsp;the&nbsp;Moon&nbsp;and&nbsp;Me?&gt;
+                  </a>
+                  </li>
+
+                  <li>
+                     <a href="***" target="_blank">
+                       &lt;Soundscape&gt;
+                     </a></li>
+
+                  <li>
+                    <a href="***" target="_blank"> &lt;Uncertainty&nbsp;Mapping&gt;
+                    </a></li>
+
+                  <li> <a href="***" target="_blank">
+                    &lt;Human&nbsp;Clock&gt;
+                   </a></li>
+
+                  </ul>
+
+                  <img src="image/writings.png"class="img-topic-header">
+
+                  <div class="indent">
+                      <p> 2019 ~ <p>
+                  </div>
+
+                  <ul class= "project-list">
+                  <li>
+                    <a href="***" target="_blank"> &lt;Food In London&gt;
+                     </a> </li>
+                  </ul>
+
+  <!----------------------------------------------------------------------------------->
+
+                  <img src="image/about.png" class="img-about-email">
+
+                  <a href="mailto:r.ussellin@hotmail.com">
+                  <img src="image/email.png"class="img-about-email">
+                  </a>
+</aside>
+
+<!-- one day make me sticky -->
+
+<!----------------------------------------------------------------------------------->
 
 
-<div class="page-content">
+<article>
+     <img src="image/current.png" class="img-topic-header">
+<!-- CURRENT WORKS, REGULARLY UPDATED -->
 
-<!-- sidebar has no flex, but page content has!
-
-p.c has flex: 1 ( spacing) overflows, flex Display
-and flex direction is a row -->
-<nav class="sidebar-left">
-
-
-
-
-
-<!-- location to tagged erased -->
-<h2 id="erz">  </h2>
-<iframe width="892" height="558" src="https://www.youtube.com/embed/WXYSCBMo5L0"
-style="padding-bottom: 5%;"
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<hr>
-
-<!-- location to tagged moon -->
-<h2 id="mon"> </h2>
-<iframe width="892" height="558" src="https://www.youtube.com/embed/JMFw8Ao1X18"
-style="padding-bottom: 5%; padding-top: 5%;"
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<hr>
-
-<!--D's photo + tagged sdcp-->
-<h2 id="sdcp"> </h2>
-<div class= firstimg>
-<img src="img/Openstudio1.jpg">
-</div>
+<p class= "header">
+Kite Aerial Photogrammetry Pt.1
 <br>
-<!-- openstudio screencap -->
-<iframe src="https://player.vimeo.com/video/427790538?color=ff9933&byline=0&portrait=0"
-style="padding-bottom: 5%;" width="892" height="558"frameborder="0"  allow="autoplay; fullscreen" allowfullscreen></iframe>
-<br>
-<!-- street screencap with aud -->
-<iframe src="https://player.vimeo.com/video/427796419?color=ff9933&byline=0&portrait=0"
-style="padding-bottom: 5%;" width="892" height="558" frameborder="0" allow="autoplay; fullscreen" allowfullscreen> </iframe>
-<br>
-<!-- Typographic experiment -->
-<iframe src="https://player.vimeo.com/video/370772284?color=ff9933&byline=0&portrait=0"
-style="padding-bottom: 5%; " width="892" height="558" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<br>
+(18/06/20 ~ 24/06/20)  </p>
 
-<!-- Un.mapping -->
-
-<hr>
-
-<!-- 3 with screen -->
-<h2 id="unmap"> </h2>
-<div class= "firstimg">
-<img src="img/Openstudio2.jpg" >
-<br>
-
-
-<!-- div = padding right
-(inline and nothign sticking out) -->
-<div class="gifz">
-<img src="img/Brightness1.gif">
-<img src="img/Brightness2.gif">
-</div>
-
-<br>
-
-<!-- to p5.js (pixelated demo) -->
-<a href="https://editor.p5js.org/beefmuck/full/CuoMUeAvL" target="_blank">
-<img src="img/linkto.p5.gif">
+<a href = "https://youtu.be/WwJHkmd9Jyg">
+<section class="img-container">
+ <img src="image/current/1.0.jpg" class="img-content">
+<img src="image/current/1.1.jpg" class="img-content">
+<img src="image/current/1.2.jpg" class="img-content">
+ </section>
 </a>
-</div>
 
-<hr>
+<p class= "captions">
 
-<!-- Human clock -->
-
-<h2 id="humc"></h2>
-<div class= "firstimg">
-<a href="https://editor.p5js.org/beefmuck/full/2HHfVKY8z" target="_blank">
-<img src="img/Clock.png"> </a>
-</div>
+Gradual reduction of weight of the rig. Final weight with camera is about 500g.
+</p>
 
 
-<hr>
 
-<!--Transparency  -->
+<section class="body-text">
+  <div class="row">
+       <div class="column">
 
-<h2 id="trans"></h2>
-<div class = "firstimg">
+       <p> Immediate thoughts on initial kite rig setup: </p>
+         <ul class= "project-list">
+		<li>- 446 g without camera (vers.1) is too heavy.  </li>
+		<li>- Missing drill bits is stressful, drilling holes will reduce weight. </li>
+			<li>- Need to figure out a way to place camera in place without adding too much weight.</li>
+			<li>- Joining wood without a chisel, all I can do is glue them on top of each other.
+  </ul>
+ <p>With the holes drilled, I tied the strings up today to test the balancing of the rig. Turns out the strings were rather thin, and I had serious doubts whether it could hold up the weight and the sway of the rig with the camera. I decided to buy a thicker string.
 
-<!-- hampstead cafe + text -->
+<br>  <br>
 
-<img src = "img/trans2.jpg">
-</div>
-<br>
+I am now wondering if this will ever fly, and if so where can I fly it. Good news, I can fly it from our roof. The wind is good enough, problem will be when is a good time to fly it.</p>
 
-<img src = "img/trans3.jpg">
-
-<br>
-
-<div class="gifz">
-<img src="img/trans4.jpg">
-<img src="img/trans5.jpg">
-</div>
-
-</nav>
-
-<div class="splitter">
-<!-- splitter -->
-</div>
-
-<!-- Text bit goes here~ -->
-<div class="content-container">
-<article class="main-content">
+    </div>
 
 
-<!-- tag for erased-->
-<a href="#erz"> <h3> > Erased –– 2020 </h3> </a>
+    <!-- <div class="column" style="background-color:#bbb;"> -->
+      <div class="column">
 
-<p> – To create a warning video by experimenting with pixilation and keying.<p>
-<p>*Insert generic comment on proliferation of screens in everyday lives* This film uses pixilation to depict the jail-like environment constructed by the over-reliance on digital services.<p>
-<p> <small> (Group work) One minute film. </small> <p>
+      <p>
+       Thicker strings has arrived, wound up and everything weighs 383g. </p>
 
-<hr>
+       <ul class= "project-list">
 
-<!-- tag for moon-->
-<a href="#mon"> <h3> > What About the Moon and Me? –– 2020 </h3> </a>
-<p> –To explore the language of film by producing a film from 35mm celluloid film.<p>
-<p>From the get-go, cinema is utilised for its ability to “observe”, rather than its ability to stitch together fragmented time. This film challenges the pre-existing schema that movies are narrative in nature, by splicing found footage together to form pure perceptive experience.<p>
-<p> <small>Digitised 35mm celluloid film (one minute). </small> <p>
+   <li>- Looking at potential places for flying the kite (not rooftop anymore), the windiest place available could be Stratford or Walthamstow wetlands. If it’s not now maybe on 25th 1400+ today I will just fly a kite normally. </li>
+   <li>- Kite did not fly. Best bet  1400~1900+ at Stratford. </li>
+   <li>- choose a place 1/4 ~ 1/2 mile of clear land (400~800m). </li>
+   <br>
+   <p> Stef helped me hold up the kite, but I think if I were to fly it in a windier location I wouldn’t need his height for the kite to catch some wind. In addition, I will also need to  look for a location that is 800m of clear land.
+   </p>
+    </div>
 
+  </div>
 
-<hr>
+</section>
 
-<!--tag for soundscape-->
-<a href="#sdcp"> <h3> > Soundscape –– 2019 </h3> </a>
-<p> – To question the authenticity if a place through interactive
-audio experiments. <p>
-<p>This piece is a response to the separating nature of boundaries. Inspired by Schafer ’s ideas on soundscape and Debord’s Society of the Spectacle, this interactive audio experiment questions our sense of place by injecting a foreign soundscape into the current space.
-Using the Kinect’s proximity and IR sensor, passersby within a prescribed distance will trigger pre-recorded sounds. In this example, the prerecorded sounds were components of the soundscape from Regent’s Park, and they were played into a studio environment in Central Saint Martins (the Graphics studios). <p>
-<p> <small> Microsoft Kinect (gen.1), Processing. </small> <p>
-
-
-<hr>
-<!--tag for mapping  -->
-<a href= "#unmap"> <h3> > Uncertainty Mapping –– 2019 </h3> </a>
-<p> – To explore alternative cartographic methods. <p>
-<p>Inspired by the latent possibilities within maps (as a result of choosing what to include on a map), and historical notion of  physically traversing oceans to uncover new territories, this interactive piece relies on the movements of its participants to uncover their environment.
-Using a webcam, the screen either gets less pixelated or brighter as it senses motion. In the absence of instructions, random movements provide a clear video feed, rewarding the participants’ uncertain behaviour.<p>
-
-<a href="https://editor.p5js.org/beefmuck/full/CuoMUeAvL" target="_blank"> <span> click on me! </span> </a> 
-
-
-<p> <small> p5.js, Processing.</small> <p>
-
-<hr>
-<!-- tag for human clock -->
-<a href= "#humc"> <h3> > Human Clock –– 2019 </h3> </a>
-<p> – To reconsider and readpt timekeeping in a more relevant way. <p>
-<p>Historically timekeeping has been pegged to a natural constant, and as technology becomes more sophisticated, so too is the demand for precision and reliability in timekeeping. Given our increasingly image-mediated reality, perhaps snapshots of time can be chronicled into images, with the duration up to its users. <p>
-<p>  This project seeks to do away the rigid (yet standardised) notion of time, by letting the user set the duration between each photo. The result is a matrix of photos that can have different durations between them, different users and different places. <p>
-
-<a href="https://editor.p5js.org/beefmuck/full/2HHfVKY8z" target="_blank"> <span> click on me! </span> </a>
-
-<p> <small> p5.js. </small> <p>
-
-<hr>
-<!-- tag for trans -->
-<a href= "#trans"> <h3> > Transparency –– 2018 </h3> </a>
-<p>  – To translate the essence of a place visually. <p>
-<p>This project is about documenting the process of familiarising and situating oneself in a foreign place. Inspired by John Cage’s 4’33”, the essence of a location is captured by the marks left by the suspended pen.<p>
-<p> <small> Film camera, marker, paper. </small> <p>
-<br>
-<br>
 
 </article>
 
-
-</div>
 </div>
 
-<footer>
-<small>&copy Russell Lin, 2018-2020</small>
-</footer>
-</div>
-
-<div id="overlay">
-<div id="home_text">
-<div class="img-container">
-<img id="portimg" src="img/overlay.png" alt="this is the intro page">
-<div class="overlay">
-</div>
-
-</div>
-</div>
-
-</body>
-</html>
+        </main>
